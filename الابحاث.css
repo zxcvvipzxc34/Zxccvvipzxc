@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #FEFAF6
+  }
+  .vadff {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .vadf {
+    background: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 30px;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  
+  }
+  nav {
+    width: 900px;
+    background-color:  #6D9886;
+    border-radius: 0 0 20px 20px;
+    padding-right: 60px;
+    display: flex;
+    align-items:center ;
+  }
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    height: 85px;
+  }
+  
+  a li {
+    /* display: block; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    /* border: 2px solid ; */
+    border-radius: 20px;
+    margin: 5px;
+    transition: 0.3s;
+    font-size: 20px;
+  }
+  li:hover {
+    -webkit-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+  }
+  ul a {
+    text-decoration: none;
+  }
+  .Research{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 25px;
+    color: #000000;
+    transition: 0.3s;
+
+  }
+  .Research:hover{
+    text-shadow: 0 0 10px white;
+    transition: 0.3s;
+
+  }
+  /* .big_img {
+    width: 100%;
+    height: 1200px;
+    background-image: url(../img/سرطان-removebg-preview.png);
+    background-size: cover;
+    /* border: 2px solid; */
+     /* margin-top: 50px;  */
+
+  .all_div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 200px;
+  }
+  .section1 h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    transition: 0.3s;
+    color: #000000;
+
+  }
+  .section1:hover{
+    text-shadow: 0 0 10px white;
+    transition: 0.3s;
+
+  }
+  .section1 p {
+    color:rgb(0, 0, 0);
+    font-family: 'poppins',sans-serif;
+  font-size: 30px;
+  transition: 0.3s;
+
+  }
+  .section1 {
+    /* background-color: rgb(208, 231, 210); */
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 100px;
+  color: aliceblue;
+  }
+  .all_div2 {
+    background-color: #6D9886;
+    height: 150px;
+    width: 800px;
+    margin-top: 130px;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+    transition: 0.3s;
+
+  }
+  .all_div2:hover{
+    -webkit-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    transition: 0.3s;
+
+  }
+  .all_div2 h1 {
+    justify-content: center;
+    display: flex;
+  }
+  .all_div2 p {
+    font-size: 20px;
+  }
+  .all_div3 {
+    justify-content: flex-start;
+    display: flex;
+    background-color: #6D9886;
+    height: 100px;
+    width: 800px;
+    margin-top: 100px;
+    border-radius: 0 20px 20px 0;
+    padding: 40px;
+    margin-bottom: 100px;
+    transition: 0.3s;
+
+  }
+  .all_div3:hover{
+    -webkit-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    transition: 0.3s;
+
+  }
+  .all_div3 h1 {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .all_div3 p {
+    font-size: 20px;
+  }
+  .parent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .all_div4{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #6D9886;
+    height: 200px;
+    width: 800px;
+    border-radius: 20px;
+    padding: 30px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  transition: 0.3s;
+  }
+  .all_div4:hover{
+    -webkit-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+  .all_div4 h1 {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .all_div4 p {
+    font-size: 20px;
+  }
+  .big_button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    border-radius: 20px;
+
+  }
+  .smol_button{
+    border-radius: 20px;
+    transition: 0.3s;
+      /* font-family: "Alexandria", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;    */
+
+
+  }
+
+  .smol_button button{
+    width: 300px ;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+
+
+  }
+  .smol_button a{
+    list-style-type: none;
+  text-decoration: none; 
+  color: black;
+  transition: 0.3s;
+  border-radius: 20px;
+
+  }
+  .smol_button:hover{
+    -webkit-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    box-shadow: 0px 0px 31px 0px rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+  .end {
+    background-color:  #6D9886;
+    /* border:2px solid; */
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* .amg1 {
+    height: 200px;
+    width: 500px;
+    background-image: url(../img/الجمعية_السعودية_للسرطان-removebg-preview.png);
+    background-size: cover;
+  } */
+  .qwe {
+    height: 300px;
+    width: 300px;
+  }
+  .qwe p {
+    padding-top: 250px;
+    text-align: center;
+  }
+  .footenend{
+    height: 100px;
+    background-color:  #6D9886;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      font-weight: 400;
+      font-size: 20px;
+
+    }
+  }
+  #faq {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #6D9886;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+  }
+
+  #faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .question {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .answer {
+    margin-top: 10px;
+  }
+  #faq :hover{
+    color: #000000;
+  }
